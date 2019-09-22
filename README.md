@@ -178,7 +178,7 @@ Note: On ARMv8, `Auto` uses no optimizations. From my testing, the NEON implemen
 
 #### Disabling NVIDIA support
 
-Run cmake with the -DNVIDIA=OFF flag: `cmake -DNVIDIA=OFF ..`
+Run cmake with the -ENABLE_NVIDIA=OFF flag: `cmake ENABLE_NVIDIA=off ..`
 
 ### Windows
 
